@@ -5,7 +5,7 @@ class C_kapal extends CI_Controller {
 
     function __construct(){
         parent::__construct();	
-            // ini adalah function untuk memuat model bernama m_datainiasa
+            // ini adalah function untuk memuat model bernama m_datainiasaaa
         $this->load->model('m_data');
         // 
             $this->load->helper('url');
@@ -14,7 +14,11 @@ class C_kapal extends CI_Controller {
                 redirect(base_url("admin/C_login"));
             }
         }
+<<<<<<< HEAD
     //  method yang akan diakses saat controller ini diaksesaaa
+=======
+    //  method yang akan diakses saat controller ini diaksesasdaasd
+>>>>>>> onebranch
         function index(){
         // ini adalah variabel array $data yang memiliki index user, berguna untuk menyimpan data 
         $data['kapal'] = $this->m_data->tampil_data()->result();
