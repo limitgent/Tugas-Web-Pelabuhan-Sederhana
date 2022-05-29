@@ -5,7 +5,7 @@ class C_kapal extends CI_Controller {
 
     function __construct(){
         parent::__construct();	
-            // ini adalah function untuk memuat model bernama m_data
+            // ini adalah function untuk memuat model bernama m_dataaaaaaaaaaaaaaaaaaa
         $this->load->model('m_data');
         // 
             $this->load->helper('url');
