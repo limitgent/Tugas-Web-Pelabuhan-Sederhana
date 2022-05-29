@@ -14,7 +14,7 @@ class C_kapal extends CI_Controller {
                 redirect(base_url("admin/C_login"));
             }
         }
-    //  method yang akan diakses saat controller ini diakses
+    //  method yang akan diakses saat controller ini diaksesaaa
         function index(){
         // ini adalah variabel array $data yang memiliki index user, berguna untuk menyimpan data 
         $data['kapal'] = $this->m_data->tampil_data()->result();
